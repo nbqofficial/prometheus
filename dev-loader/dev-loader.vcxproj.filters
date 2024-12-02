@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{90d19c27-1e54-4b81-8e80-a7d70d173240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\defs">
+      <UniqueIdentifier>{2288d8f2-2ab4-4b7e-bca2-fa9018335a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{81bee614-00a7-473e-b6e0-e22a093c6f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mapper">
+      <UniqueIdentifier>{62b37ee7-86c9-42dc-a991-ad19717880ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\core.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mapper\mapper.cpp">
+      <Filter>src\mapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\defs\definitions.h">
+      <Filter>src\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\core.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mapper\mapper.h">
+      <Filter>src\mapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

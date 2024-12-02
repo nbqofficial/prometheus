@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4c666486-cac5-4804-a24b-f71867518842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nt">
+      <UniqueIdentifier>{de96c4f9-4512-4841-9f93-849755cacd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\defs">
+      <UniqueIdentifier>{2d871d1f-ec78-435f-b782-5ef151a81195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\helper">
+      <UniqueIdentifier>{ace3f479-6b47-4236-bcdb-ac12c272fea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mouse">
+      <UniqueIdentifier>{d40ce392-ee09-46e8-8ab4-6228944575bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hook">
+      <UniqueIdentifier>{0ce19ddb-9d56-48fd-93d2-3a0552aa5f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{0e5735a3-fe50-4c04-b75b-d278c1aaa1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\drawing">
+      <UniqueIdentifier>{25fd6df4-30f3-4b0a-a238-07c03679f145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dispatch">
+      <UniqueIdentifier>{69fb5d77-ed1f-42fb-ab92-4c194fb05dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\auth">
+      <UniqueIdentifier>{e3299e04-f337-4a4f-8763-14a5977f42df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\nt\ntstructs.h">
+      <Filter>src\nt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nt\ntapi.h">
+      <Filter>src\nt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs\win_offsets.h">
+      <Filter>src\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs\definitions.h">
+      <Filter>src\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helper\helper.h">
+      <Filter>src\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse\mouse.h">
+      <Filter>src\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hook.h">
+      <Filter>src\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\memory.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\drawing\drawing.h">
+      <Filter>src\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dispatch\dispatch.h">
+      <Filter>src\dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\auth\auth.h">
+      <Filter>src\auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\defs\win_offsets.cpp">
+      <Filter>src\defs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper\helper.cpp">
+      <Filter>src\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse\mouse.cpp">
+      <Filter>src\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hook.cpp">
+      <Filter>src\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\memory.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drawing\drawing.cpp">
+      <Filter>src\drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dispatch\dispatch.cpp">
+      <Filter>src\dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\auth\auth.cpp">
+      <Filter>src\auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

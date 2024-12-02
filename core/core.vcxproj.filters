@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{de40a92b-ff72-4d8d-a7dd-475a5a3d801f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nt">
+      <UniqueIdentifier>{9d399af5-3517-4741-b1eb-b7eece1291e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\defs">
+      <UniqueIdentifier>{959a9363-8344-4978-98a7-0a3a2e9c6f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\corelib">
+      <UniqueIdentifier>{dc73cb7f-32e0-46fb-9664-e9d9c9c79c95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\nt\ntstructs.h">
+      <Filter>src\nt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nt\ntapi.h">
+      <Filter>src\nt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defs\definitions.h">
+      <Filter>src\defs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\corelib\corelib.h">
+      <Filter>src\corelib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\nt\ntapi.cpp">
+      <Filter>src\nt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\corelib\corelib.cpp">
+      <Filter>src\corelib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

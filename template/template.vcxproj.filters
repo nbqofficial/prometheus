@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{54f6cb91-973e-4f20-90cf-6d927b9cb505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{c1452da5-0c28-446a-b842-0a40513b96de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cmdgui">
+      <UniqueIdentifier>{251706eb-1a08-462c-a244-9970f3cc3592}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\core.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmdgui\cmdgui.cpp">
+      <Filter>src\cmdgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\core.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cmdgui\cmdgui.h">
+      <Filter>src\cmdgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
